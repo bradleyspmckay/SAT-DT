@@ -6,3 +6,9 @@ html {
     accent-color: black;
     inline-size: 250px;
 }
+#dia_button {
+    background-color: blanchedalmond;
+    border-radius: 2px;
+    border-style:solid;
+    block-size: 25px;
+}
