@@ -4,6 +4,8 @@
         <title>SAT - Diagnostic Techniques</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js" defer></script>
     </head>
     <body>
         <h1>Structured Analytic Techniques - Diagnosing Information</h1>
@@ -26,6 +28,16 @@
             <br>
             <b>Content:</b> “Can hear helicopters flying low near my village every night now. Something's going on. I saw tanks 3 days ago moving east. First time in years! #Anduria #TovakTension”
         </p>
+        <form>
+            <label for="source_rating">Source</label><br>
+            <input class="rating" name="source" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="info_rating">Information Quality</label><br>
+            <input class="rating" name="info" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="relevance_rating">Relevance</label><br>
+            <input class="rating" name="relevance" type="range" min="0" max="5" value="0", step="1"><br>
+            <button class="submit_rating" type="button">Submit</button>
+            <p class="answer_output"></p>
+        </form>
         <h3>Report Two: HUMINT Source A</h3>
         <p>
             <b>Source:</b> A mid-level Andurian military officer with a history of accurate reporting
@@ -34,6 +46,16 @@
             <br>
             <b>Content:</b> “An armored brigade has been ordered to stage near the border within the week. The directive came from General Kael himself. Officers were told to prepare for a ‘readiness inspection,’ but several units were issued live ammunition.”
         </p>
+        <form>
+            <label for="source_rating">Source</label><br>
+            <input class="rating" name="source" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="info_rating">Information Quality</label><br>
+            <input class="rating" name="info" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="relevance_rating">Relevance</label><br>
+            <input class="rating" name="relevance" type="range" min="0" max="5" value="0", step="1"><br>
+            <button class="submit_rating" type="button">Submit</button>
+            <p class="answer_output"></p>
+        </form>
         <h3>Report Three: SIGINT Intercept</h3>
         <p>
             <b>Source:</b> Intercepted phone call between two Braxian military planners
@@ -42,6 +64,16 @@
             <br>
             <b>Content:</b> “...they’ve been running drills, but I don’t think they’re crazy enough to try something before the trade summit. Not while the UN is still watching.”
         </p>
+        <form>
+            <label for="source_rating">Source</label><br>
+            <input class="rating" name="source" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="info_rating">Information Quality</label><br>
+            <input class="rating" name="info" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="relevance_rating">Relevance</label><br>
+            <input class="rating" name="relevance" type="range" min="0" max="5" value="0", step="1"><br>
+            <button class="submit_rating" type="button">Submit</button>
+            <p class="answer_output"></p>
+        </form>
         <h3>Report Four: News Article from Andurian State Media</h3>
         <p>
             <b>Source:</b> Anduria National Herald (state-run news outlet)
@@ -50,6 +82,16 @@
             <br>
             <b>Content:</b> “President Varek assures citizens: ‘We will defend every inch of Andurian soil. The Tovak Corridor is, and always has been, ours.’ Parade planned to celebrate Armed Forces Day this weekend with armored vehicle demonstration in East Province.”
         </p>
+        <form>
+            <label for="source_rating">Source</label><br>
+            <input class="rating" name="source" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="info_rating">Information Quality</label><br>
+            <input class="rating" name="info" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="relevance_rating">Relevance</label><br>
+            <input class="rating" name="relevance" type="range" min="0" max="5" value="0", step="1"><br>
+            <button class="submit_rating" type="button">Submit</button>
+            <p class="answer_output"></p>
+        </form>
         <h3>Report Five: Satellite Imagery Analysis</h3>
         <p>
             <b>Source:</b> Imagery from commercial satellite provider, analyzed by NGA contractor
@@ -58,5 +100,15 @@
             <br>
             <b>Content:</b> “Recent imagery (July 29) shows the deployment of 40+ armored vehicles and 15 mobile artillery pieces to staging area 14 km from Tovak border. Activity is consistent with pre-deployment posture. Presence of fuel tankers suggests sustained operations.”
         </p>
+        <form>
+            <label for="source_rating">Source</label><br>
+            <input class="rating" name="source" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="info_rating">Information Quality</label><br>
+            <input class="rating" name="info" type="range" min="0" max="5" value="0", step="1"><br>
+            <label for="relevance_rating">Relevance</label><br>
+            <input class="rating" name="relevance" type="range" min="0" max="5" value="0", step="1"><br>
+            <button class="submit_rating" type="button">Submit</button>
+            <p class="answer_output"></p>
+        </form>
     </body>
 </html>

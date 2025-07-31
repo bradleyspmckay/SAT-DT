@@ -1,0 +1,8 @@
+html {
+    font-family:'Courier New', Courier, monospace;
+    background-color:blanchedalmond
+}
+.rating {
+    accent-color: black;
+    inline-size: 250px;
+}
