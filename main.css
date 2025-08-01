@@ -1,6 +1,6 @@
 html {
     font-family:'Courier New', Courier, monospace;
-    background-color:blanchedalmond
+    background-color:blanchedalmond;
 }
 .rating {
     accent-color: black;
@@ -11,4 +11,19 @@ html {
     border-radius: 2px;
     border-style:solid;
     block-size: 25px;
+}
+hr {
+    border-color: black;
+}
+.title {
+    text-align: center;
+}
+.still {
+    position:fixed;
+    z-index: 1;
+    background-color: blanchedalmond;
+}
+.slider {
+    position:relative;
+    top: 430px;
 }
