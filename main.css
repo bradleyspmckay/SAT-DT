@@ -18,12 +18,3 @@ hr {
 .title {
     text-align: center;
 }
-.still {
-    position:fixed;
-    z-index: 1;
-    background-color: blanchedalmond;
-}
-.slider {
-    position:relative;
-    top: 430px;
-}
